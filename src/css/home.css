@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 14px;
+    background-color: #F6F2E7;
+}
+
+p {
+    font-size: 1.20em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+.borda{
+    border-right: 4px solid #000;
+    border-bottom: 4px solid #000;
+}
+
+.logo {
+
+}
+
+.navbar-container {
+    width: 100%;
+    margin: 16px 16px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: #F6F2E7;
+    background-color: #1F2E1A;
+    padding: 1.5rem 2rem;
+}
+
+.navbar .caminhos {
+    display: flex;
+    font-size: 1.25rem;
+    gap: 2rem;
+}
+
+.caminhos-link {
+    font-size: 1.25rem;
+}
+
+.navbar .opcoes {
+    display: flex;
+    gap: 2rem;
+}
+
+
+.content {
+    margin: 1.5rem 12rem;
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px;
+}
+
+#id {
+    width: 100%;
+    height: 20vh;
+}
+
+.container-resumo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 15rem;
+    height: auto;
+    color: #F6F2E7;
+    background-color: #3F6B3C;
+    font-size: 1rem;
+    border-radius: .5rem;
+    padding: 1.5rem 2rem;
+    margin: 12px 20px;
+}
+
+.container-resumo .resumo-btn {
+    margin-top: 1.5rem;
+}
+
+.container-resumo .resumo-btn a{
+    all: unset;
+    cursor: pointer;
+    display: inline-block;
+    width: 12rem;
+    background-color: #C1443B;
+    padding: 14px 16px;
+    border-radius: .5rem;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Seção Proposta */
+#proposta {
+    margin: 20px 16px 0 16px;
+    text-align: center;
+}
+
+.titulo-proposta {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1F2E1A;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    margin: 20px 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 16px 14px;
+    width: 25%;
+    height: 12rem;
+    text-align: center;
+    border: 1px solid #cfc7ad;
+    border-radius: .5rem;
+} 
+
+/* Estilos para o Rodapé (Estilo Navbar) */
+#footer-container {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F6F2E7;
+    background-color: #1F2E1A;
+    padding: 1.5rem 2rem;
+}
+
+.footer-links {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.1rem;
+}
+
+.footer-links a {
+    cursor: pointer;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+    color: #C1443B;
+}
+
+.footer-social {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.4rem;
+}
