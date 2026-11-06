@@ -1,0 +1,37 @@
+/* Componentes das páginas internas (complementa home.css) */
+.caminhos-link.ativo{border-bottom:2px solid #C1443B}
+.hero-sm{min-height:10rem}
+.hero-sm h1{font-weight:700;font-size:3rem}
+.sec{margin:20px 16px}
+.sec>h2{font-size:2rem;color:#1F2E1A;margin-bottom:1rem}
+.sec>p{max-width:70ch;line-height:1.5}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin:20px 16px}
+.box{background:#fff;border:1px solid #cfc7ad;border-radius:.5rem;padding:16px;display:flex;flex-direction:column;gap:.6rem}
+.box.borda{border-right:4px solid #000;border-bottom:4px solid #000}
+.box p{line-height:1.4}
+.stat{font-size:2.5rem;font-weight:700;color:#C1443B}
+.avatar{width:4rem;height:4rem;border-radius:50%;background:#3F6B3C;color:#F6F2E7;display:grid;place-items:center;font-weight:700;font-size:1.3rem}
+.ph{height:10rem;border-radius:.5rem;background:#3F6B3C;color:#F6F2E7;display:grid;place-items:center;border-right:4px solid #000;border-bottom:4px solid #000}
+.btn,button.btn{all:unset;cursor:pointer;display:inline-block;background:#C1443B;color:#F6F2E7;padding:14px 20px;border-radius:.5rem;font-weight:700;text-align:center}
+.btn:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #C1443B;outline-offset:2px}
+.tools{display:flex;gap:.8rem;flex-wrap:wrap}
+form{display:flex;flex-direction:column;gap:1rem;max-width:40rem}
+label{display:flex;flex-direction:column;gap:.3rem;font-weight:700}
+input,textarea,select{font:inherit;padding:10px;border:2px solid #000;border-radius:.5rem;background:#fff}
+.ok{background:#3F6B3C;color:#F6F2E7;padding:12px;border-radius:.5rem}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;background:#fff}
+th,td{border:1px solid #000;padding:12px;text-align:left}
+th{background:#1F2E1A;color:#F6F2E7}
+.dest{background:#F6F2E7;font-weight:700}
+.media iframe,.media video{width:100%;border:0;border-radius:.5rem;border-right:4px solid #000;border-bottom:4px solid #000}
+.media iframe{height:22rem}
+.mais{margin:2rem 16px 0;display:flex;gap:1.5rem;flex-wrap:wrap;justify-content:center;font-weight:700;color:#1F2E1A}
+.mais a:hover{color:#C1443B}
+.nota{font-size:.9rem;opacity:.75}
+/* Acessibilidade (ativado por main.js) */
+body.fs1{font-size:16px}body.fs2{font-size:18px}
+body.contraste{background:#000;color:#fff}
+body.contraste .box,body.contraste table,body.contraste input,body.contraste textarea,body.contraste select{background:#000;color:#fff;border-color:#fff}
+body.contraste .sec>h2,body.contraste .titulo-proposta,body.contraste .mais{color:#fff}
+@media(max-width:900px){.content{margin:1rem}.navbar,.footer-nav{flex-direction:column;gap:1rem}.navbar .caminhos,.navbar .opcoes,.footer-links{flex-wrap:wrap;gap:1rem}.container-cards{flex-wrap:wrap}.card{width:100%;height:auto}.hero-sm h1{font-size:2rem}}
