@@ -88,6 +88,16 @@ Trabalho-HTML/
 | Acessibilidade | Informações sobre acessibilidade. |
 | Orçamento e Hospedagem | Informações sobre custos e hospedagem do site. |
 
+##  Integrantes do Projeto
+
+| **Nome completo do aluno** | **RGM** | **Usuário do GitHub** |
+|---|---|---|
+| Guilherme Lima de Souza | 47622814 | [@giuerme](https://github.com/giuerme) |
+| Guilherme Miranda Sena | 47401672 | [@mirandadev-creator](https://github.com/mirandadev-creator) |
+| Guilherme Vilela Frassão | 47911522 | [@guilherme-vilelaf](https://github.com/guilherme-vilelaf) |
+| Nathan de Oliveira Tavares | 47916966 | [@ghost-nana](https://github.com/ghost-nana) |
+| Kaue Dogani Moreira | 47312998 | [@kauedogani](https://github.com/kauedogani) |
+| João Vitor Gonçalves de Oliveira | 47391111 | [@ojoaovitor88](https://github.com/ojoaovitor88) |
 
 ##  Acesse o Projeto
 
