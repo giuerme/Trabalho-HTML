@@ -10,8 +10,6 @@ O **Movimento Sem Fome** é um projeto Front-End organizado em páginas HTML ind
 
 ## 2. Estrutura de pastas
 
-Estrutura dos arquivos de código **efetivamente encontrados** em 08/11/2026, acrescida desta pasta de documentação:
-
 ```text
 Trabalho-HTML/
 ├── README.md
