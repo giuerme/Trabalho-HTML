@@ -47,8 +47,6 @@ Trabalho-HTML/
         └── README.md
 ```
 
-> **Atenção:** as páginas referenciam caminhos sob `src/assets/images`, `src/assets/video` e `src/assets/audio`, mas os arquivos correspondentes **não estavam presentes** na árvore do repositório consultada. Antes da entrega, incorporar os recursos necessários ou corrigir as referências. Não confundir um `src` no HTML com um arquivo disponível.
-
 ## 3. Mapa de navegação
 
 - **Menu principal** (identificado nas páginas examinadas): Início, Sobre, Impacto, Projetos, Notícias, Contato.
