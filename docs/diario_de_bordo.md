@@ -66,8 +66,56 @@
 - **Objetivo:** Adição de arquivos e exclusão de testes para a pasta docs
 - **Decisões e justificativas:** A adição foi feita única e exclusivamente para testar a formatação dos arquivos presentes na pasta docs
 - **Evidência:** [Commit](https://github.com/giuerme/Trabalho-HTML/commit/4a3b823e3a4c41cf245cdd3f44c7f91b6c763b20) 
-- **IA utilizada:** ChatGPT Plus                          
-                          
+- **IA utilizada:** ChatGPT Plus
+
+### [08/11/2026] — Criação do Diário de Bordo
+
+- **Responsável(is):** [@giuerme](https://github.com/giuerme)
+- **Objetivo:** Criar o Diário de Bordo
+- **Decisões e justificativas:** Era um arquivo essencial para a entrega 2 
+- **Evidência:** [Commit](https://github.com/giuerme/Trabalho-HTML/commit/ffabfab052049ee75bce00a0ff57d0557c3dcdf5) 
+- **IA utilizada:** Não
+
+### [08/11/2026] — Update README by removing outdated sections
+
+- **Responsável(is):** [@giuerme](https://github.com/giuerme)
+- **Objetivo:** Correção de erros no readme
+- **Decisões e justificativas:** Era necessário deixar o readme condizente com o resto dos arquivos
+- **Evidência:** [Commit](https://github.com/giuerme/Trabalho-HTML/commit/621041917d2136914952f35d6c6e9d20ff705737) 
+- **IA utilizada:** Não
+
+### [08/11/2026] — Add budget, publication, and technical justification document
+
+- **Responsável(is):** [@giuerme](https://github.com/giuerme)
+- **Objetivo:** Criar o arquivo de  orçamento, publicação e justificativa técnica
+- **Decisões e justificativas:** Era um arquivo essencial para a entrega 2 
+- **Evidência:** [Commit](https://github.com/giuerme/Trabalho-HTML/commit/c3884a225823a0f0de54479bb318bc99608647b6) 
+- **IA utilizada:** Não
+
+### [08/11/2026] — Add test plan and evidence documentation
+
+- **Responsável(is):** [@giuerme](https://github.com/giuerme)
+- **Objetivo:** Criar o arquivo de testes
+- **Decisões e justificativas:** Era um arquivo essencial para a entrega 2 
+- **Evidência:** [Commit](https://github.com/giuerme/Trabalho-HTML/commit/50ac5e9463eb04a1d1728c9ceeae576d0c5ddf7e) 
+- **IA utilizada:** Não
+
+### [08/11/2026] — Add MVP evolution documentation
+
+- **Responsável(is):** [@giuerme](https://github.com/giuerme)
+- **Objetivo:** Criar o arquivo que mostra a evolução do projeto entre a entrega 1 e a 2
+- **Decisões e justificativas:** Era um arquivo essencial para a entrega 2 
+- **Evidência:** [Commit](https://github.com/giuerme/Trabalho-HTML/commit/5a598cb0a4e836813262ccfffa010ff7dc06314a) 
+- **IA utilizada:** Não
+
+### [08/11/2026] — Create uso_ia.md
+
+- **Responsável(is):** [@giuerme](https://github.com/giuerme)
+- **Objetivo:** Criar o arquivo que mostre o uso de IA no projeto
+- **Decisões e justificativas:** Era um arquivo essencial para a entrega 2 
+- **Evidência:** [Commit](https://github.com/giuerme/Trabalho-HTML/commit/74c45a1ca62c880a68e71f88cabd8bfd3e43c48c) 
+- **IA utilizada:** Não
+                 
 ## 2. Histórico GitHub
 
 - Repositório: https://github.com/giuerme/Trabalho-HTML
