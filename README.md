@@ -12,7 +12,7 @@ Acreditamos que pequenas atitudes podem gerar grandes transformações na socied
 
 ## Objetivo do Projeto
 
-Desenvolver uma plataforma informativa que apresente iniciativas de combate à fome, incentive a doação de alimentos e conscientize a população sobre a importância da sustentabilidade alimentar.
+Desenvolver uma plataforma que divulgue iniciativas contra a fome, incentive a doação de alimentos e promova a sustentabilidade alimentar, buscando a participação de mais ONGs para expandir o projeto.
 
 ##  Nossas Iniciativas
 
