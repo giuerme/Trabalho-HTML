@@ -18,6 +18,3 @@ Esta pasta reúne os materiais solicitados pelo roteiro e pela rubrica da segund
 | [Plano e evidências de testes](testes.md) | Casos de teste, critérios de aprovação e registro de resultados. |
 | [Melhorias em relação ao MVP](melhorias_mvp.md) | Evolução da primeira para a segunda entrega e espaço para o feedback real do professor. |
 | [Uso de inteligência artificial](uso_ia.md) | Ferramenta, prompts conhecidos, revisão humana e limites. |
-| [Organização da equipe e GitHub](processo_git.md) | Integrantes, atribuições a confirmar, commits, branches e pull request. |
-| [Roteiro da apresentação](roteiro_apresentacao.md) | Correspondência dos 14 slides com as evidências e demonstração. |
-| [Instruções para evidências](evidencias/README.md) | Capturas de tela, validação W3C, Lighthouse e prints antes/depois. |
