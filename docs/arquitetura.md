@@ -90,8 +90,6 @@ Validar nome, e-mail e mensagem
         persistir rascunho/preferência via localStorage
 ```
 
-Este é o **fluxo de aceitação exigido pelo roteiro**, e não uma afirmação de que todas as etapas já foram verificadas na versão publicada. O comportamento atual está registrado em `testes.md`.
-
 ## 6. Como executar
 
 ```bash
