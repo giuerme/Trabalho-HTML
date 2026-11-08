@@ -35,9 +35,9 @@ Trabalho-HTML/
     ├── arquitetura.md
     ├── diario_de_bordo.md
     ├── escopo.md
+    ├── melhorias_mvp.md
     ├── orcamento.md
     ├── testes.md
-    ├── melhorias_mvp.md
     ├── uso_ia.md
         └── README.md
 ```
