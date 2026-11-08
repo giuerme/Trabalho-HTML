@@ -96,13 +96,3 @@ Validar nome, e-mail e mensagem
 git clone https://github.com/giuerme/Trabalho-HTML.git
 cd Trabalho-HTML
 ```
-
-Abrir `index.html` no navegador ou com a extensão **Live Server** do Visual Studio Code. Não há `package.json` ou rotina de build na estrutura de código consultada.
-
-## 7. Atenções para a versão final
-
-1. Verificar se os ícones e os arquivos de mídia existem no deploy.
-2. Garantir que toda ação de formulário corresponda a um comportamento real claramente explicado.
-3. Validar navegação com teclado e links de `href` vazio/placeholder.
-4. Validar HTML no W3C e CSS em telas pequenas, médias e grandes.
-5. Confirmar que a versão ZIP corresponda à publicada.
