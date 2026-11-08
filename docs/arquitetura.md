@@ -30,18 +30,15 @@ Trabalho-HTML/
 │   │   └── pages.css
 │   └── js/
 │       └── main.js
-└── docs/                         # pasta preparada nesta entrega
+└── docs/                        
     ├── README.md
-    ├── escopo.md
     ├── arquitetura.md
     ├── diario_de_bordo.md
+    ├── escopo.md
     ├── orcamento.md
     ├── testes.md
     ├── melhorias_mvp.md
     ├── uso_ia.md
-    ├── processo_git.md
-    ├── roteiro_apresentacao.md
-    └── evidencias/
         └── README.md
 ```
 
