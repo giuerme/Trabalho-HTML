@@ -13,18 +13,18 @@
 
 | ID | Procedimento | Resultado esperado | Resultado | Evidência |
 | --- | --- | --- | --- | --- |
-| T01 | Abrir home pela URL publicada | HTTPS, sem login e carregamento sem erro | Não executado | [print] |
-| T02 | Percorrer links de todas as dez páginas | Links internos chegam ao destino | Não executado | [print] |
-| T03 | Abrir em 360 px | Sem conteúdo cortado e navegação utilizável | Não executado | [print] |
-| T04 | Abrir em 768 px | Layout reorganizado e legível | Não executado | [print] |
-| T05 | Abrir em 1366 px | Layout de desktop organizado | Não executado | [print] |
-| T06 | Enviar formulário com campos vazios | Erros/impedimento e indicação acessível do problema | Não executado | [print] |
-| T07 | Digitar e-mail inválido | Campo rejeitado, mensagem adequada e destaque | Não executado | [print] |
-| T08 | Enviar dados válidos | Mensagem coerente com o comportamento real | Não executado | [print] |
+| T01 | Abrir home pela URL publicada | HTTPS, sem login e carregamento sem erro | executado | ![Teste URL](../src/images/prints/image.png) |
+| T02 | Percorrer links de todas as dez páginas | Links internos chegam ao destino | executado | ![Teste link](../src/images/prints/links.png) |
+| T03 | Abrir em 360 px | Sem conteúdo cortado e navegação utilizável | executado parcialmente | ![Teste responsividade](../src/images/prints/responsi-360.png) |
+| T04 | Abrir em 768 px | Layout reorganizado e legível | executado | ![Teste 2 responsividade](../src/images/prints/responsi-768.png) |
+| T05 | Abrir em 1366 px | Layout de desktop organizado | executado | ![Teste 3 responsividade](../src/images/prints/responsi-1366.png) |
+| T06 | Enviar formulário com campos vazios | Erros/impedimento e indicação acessível do problema | executado | ![teste 1 formumario](../src/images/prints/contato.png) |
+| T07 | Digitar e-mail inválido | Campo rejeitado, mensagem adequada e destaque | executado | ![teste 2 formulario](../src/images/prints/teste-email.png)|
+| T08 | Enviar dados válidos | Mensagem coerente com o comportamento real | Não executado | ![teste 3 formulario](../src/images/prints/teste-enviar.png) |
 | T09 | Recarregar durante edição do formulário | Rascunho ou preferência definida permanece via `localStorage` | Não executado | [print] |
-| T10 | Acionar alto contraste | Classe/estilo alterado sem perda de leitura | Não executado | [print] |
-| T11 | Acionar aumentar/diminuir texto | Texto altera e mantém legibilidade | Não executado | [print] |
-| T12 | Navegar com Tab e Enter | Foco visível, ordem lógica e controles acessíveis | Não executado | [print/vídeo] |
+| T10 | Acionar alto contraste | Classe/estilo alterado sem perda de leitura | Não executado | falta comprovar |
+| T11 | Acionar aumentar/diminuir texto | Texto altera e mantém legibilidade | Não executado | falta comprovar |
+| T12 | Navegar com Tab e Enter | Foco visível, ordem lógica e controles acessíveis | executado | ![teste tab](../src/images/prints/teste-tabs.png) |
 | T13 | Validar `index.html` no W3C | Zero erros | Não executado | [relatório] |
 | T14 | Validar as outras nove páginas no W3C | Zero erros em cada uma | Não executado | [relatórios] |
 | T15 | Executar auditoria Lighthouse | Relatório registrado e problemas analisados | Não executado | [print] |

@@ -27,8 +27,8 @@ a {
     border-bottom: 4px solid #000;
 }
 
-.logo {
-
+.logo img {
+    width: 20px;
 }
 
 .navbar-container {
@@ -86,6 +86,11 @@ a {
     margin: 12px 20px;
 }
 
+.container-resumo h1 {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
 .container-resumo .resumo-btn {
     margin-top: 1.5rem;
 }
@@ -120,6 +125,10 @@ a {
     justify-content: space-evenly;
     gap: 1rem;
     margin: 20px 16px;
+}
+
+.card img {
+    width: 75px;
 }
 
 .card {
