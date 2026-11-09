@@ -64,13 +64,18 @@ Trabalho-HTML/
 ├── orcamento_hospedagem.html
 │
 └── src/
-    ├── assets/
-    │   └── images/
-    │       └── icons/
-    │
-    └── css/
-        ├── home.css
-        └── pages.css
+    ├── audios/
+    │   └── audio.mp3
+    ├── css/
+    │   ├── home.css
+    │   └── pages.css 
+    ├── images/
+    │   ├── galeria/
+    │   ├── icons/
+    │   └── prints/
+    └── js/
+        ├── form-contato.js
+        └── main.js
 ```
 
 ##  Páginas do Site
