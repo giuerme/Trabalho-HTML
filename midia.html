@@ -5,31 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/735a316080.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&display=swap">
     <link rel="stylesheet" href="./src/css/home.css">
     <link rel="stylesheet" href="./src/css/pages.css">
     <title>Mídia | Movimento Sem Fome</title>
 </head>
 
 <body>
-    <header id="navbar-container">
-        <nav class="navbar">
-            <div class="logo"><img src="./src/images/icons/maca.svg" alt="logotipo-msf"> Movimento Sem Fome</div>
-            <div class="caminhos">
-                <a class="caminhos-link" href="index.html">inicio</a>
-                <a class="caminhos-link" href="sobre.html">Sobre</a>
-                <a class="caminhos-link" href="impacto.html">Impacto</a>
-                <a class="caminhos-link" href="projetos.html">Projetos</a>
-                <a class="caminhos-link" href="noticias.html">Noticias</a>
-                <a class="caminhos-link" href="contato.html">Contato</a>
-            </div>
-            <div class="opcoes">
-                <span><a href="#">Entrar</a></span>
-                <span><a href="#">Cadastre-se</a></span>
-            </div>
-        </nav>
-    </header>
+    <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+    <header id="navbar-container"><noscript><div class="navbar"><div class="caminhos"><a class="caminhos-link" href="index.html">Início</a><a class="caminhos-link" href="sobre.html">Sobre</a><a class="caminhos-link" href="impacto.html">Impacto</a><a class="caminhos-link" href="projetos.html">Projetos</a><a class="caminhos-link" href="noticias.html">Notícias</a><a class="caminhos-link" href="contato.html">Contato</a></div></div></noscript></header>
 
-    <main class="content">
+    <main class="content" id="conteudo">
         <section>
             <div class="container-resumo hero-sm borda">
                 <p>Vídeo, áudio e mapa</p>
@@ -38,7 +26,7 @@
             </div>
         </section>
         <section class="sec">
-            <h2>Vídeo Institutional</h2>
+            <h2>Vídeo institucional</h2>
                 <div class="media">
                     <video controls preload="metadata">
                         <source src="./src/videos/apresentacao.mp4" type="video/mp4">
@@ -60,25 +48,11 @@
                 <iframe title="Mapa de São Paulo" loading="lazy" src="https://www.google.com/maps?q=S%C3%A3o+Paulo&amp;output=embed"></iframe>
             </div>
         </section>
-        <p class="nota sec">Coloque seus arquivos em src/video/ e src/audio/.</p>
+        <p class="nota sec">Coloque seus arquivos em src/videos/ e src/audios/.</p>
     </main>
 
-    <nav class="mais" aria-label="Mais páginas"><a href="galeria.html">Galeria</a><a href="midia.html">Mídia</a><a href="acessibilidade.html">Acessibilidade</a><a href="orcamento_hospedagem.html">Orçamento e hospedagem</a></nav>
-    <footer id="footer-container">
-        <div class="footer-nav">
-            <div class="logo"><img src="./src/images/icons/maca.svg" alt="logotipo-msf"> Movimento Sem Fome</div>
-            <div class="footer-links">
-                <a href="#">Termos de Uso</a>
-                <a href="#">Política de Privacidade</a>
-                <a href="contato.html">Contato</a>
-            </div>
-            <div class="footer-social">
-                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-        </div>
-    </footer>
+    <nav class="mais" aria-label="Mais páginas"></nav>
+    <footer id="footer-container"></footer>
     <script src="./src/js/main.js"></script>
 </body>
 

@@ -5,31 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/735a316080.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&display=swap">
     <link rel="stylesheet" href="./src/css/home.css">
     <link rel="stylesheet" href="./src/css/pages.css">
     <title>Galeria | Movimento Sem Fome</title>
 </head>
 
 <body>
-    <header id="navbar-container">
-        <nav class="navbar">
-            <div class="logo"><img src="./src/images/icons/maca.svg" alt="logotipo-msf"> Movimento Sem Fome</div>
-            <div class="caminhos">
-                <a class="caminhos-link" href="index.html">inicio</a>
-                <a class="caminhos-link" href="sobre.html">Sobre</a>
-                <a class="caminhos-link" href="impacto.html">Impacto</a>
-                <a class="caminhos-link" href="projetos.html">Projetos</a>
-                <a class="caminhos-link" href="noticias.html">Noticias</a>
-                <a class="caminhos-link" href="contato.html">Contato</a>
-            </div>
-            <div class="opcoes">
-                <span><a href="#">Entrar</a></span>
-                <span><a href="#">Cadastre-se</a></span>
-            </div>
-        </nav>
-    </header>
+    <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+    <header id="navbar-container"><noscript><div class="navbar"><div class="caminhos"><a class="caminhos-link" href="index.html">Início</a><a class="caminhos-link" href="sobre.html">Sobre</a><a class="caminhos-link" href="impacto.html">Impacto</a><a class="caminhos-link" href="projetos.html">Projetos</a><a class="caminhos-link" href="noticias.html">Notícias</a><a class="caminhos-link" href="contato.html">Contato</a></div></div></noscript></header>
 
-    <main class="content">
+    <main class="content" id="conteudo">
         <section>
             <div class="container-resumo hero-sm borda">
                 <p>Registros do projeto</p>
@@ -39,44 +27,30 @@
         </section>
         <section class="grid">
             <figure>
-                <div class="ph" role="img" aria-label="Espaço para foto 1">
-                    <img src="./src/images/galeria/foto1.jpeg" alt="Foto 1">
+                <div class="ph">
+                    <img src="./src/images/galeria/foto1.jpeg" alt="Doação de alimentos" loading="lazy">
                 </div>
                 <figcaption class="nota">doação de alimentos</figcaption>
             </figure>
 
             <figure>
-                <div class="ph" role="img" aria-label="Espaço para foto 2">
-                    <img src="./src/images/galeria/foto2.jpeg" alt="Foto 2">
+                <div class="ph">
+                    <img src="./src/images/galeria/foto2.jpeg" alt="Voluntariado nas comunidades" loading="lazy">
                 </div>
                 <figcaption class="nota">voluntariado nas comunidades</figcaption>
             </figure>
 
             <figure>
-                <div class="ph" role="img" aria-label="Espaço para foto 3">
-                    <img src="./src/images/galeria/foto3.png" alt="Foto 3">
+                <div class="ph">
+                    <img src="./src/images/galeria/foto3.png" alt="Campanha de arrecadação" loading="lazy">
                 </div>
                 <figcaption class="nota">campanha de arrecadação</figcaption>
             </figure>
         </section>
     </main>
 
-    <nav class="mais" aria-label="Mais páginas"><a href="galeria.html">Galeria</a><a href="midia.html">Mídia</a><a href="acessibilidade.html">Acessibilidade</a><a href="orcamento_hospedagem.html">Orçamento e hospedagem</a></nav>
-    <footer id="footer-container">
-        <div class="footer-nav">
-            <div class="logo"><img src="./src/images/icons/maca.svg" alt="logotipo-msf"> Movimento Sem Fome</div>
-            <div class="footer-links">
-                <a href="#">Termos de Uso</a>
-                <a href="#">Política de Privacidade</a>
-                <a href="contato.html">Contato</a>
-            </div>
-            <div class="footer-social">
-                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-            </div>
-        </div>
-    </footer>
+    <nav class="mais" aria-label="Mais páginas"></nav>
+    <footer id="footer-container"></footer>
     <script src="./src/js/main.js"></script>
 </body>
 

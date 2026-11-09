@@ -50,6 +50,11 @@ btn.addEventListener("click", function(event) {
     p.innerText = "Mensagem enviada. Responderemos em breve."
     p.style.backgroundColor = "#3F6B3C"
     p.hidden = false
+
+    // limpa os campos após o envio
+    nome.value = ""
+    email.value = ""
+    mensagem.value = ""
 })
 
 // Evento change: detecta alterações no campo de seleção (assunto).
