@@ -19,8 +19,8 @@
 | T05 | Abrir em 1366 px | Layout de desktop organizado | executado | ![Teste 3 responsividade](../src/images/prints/responsi-1366.png) |
 | T06 | Enviar formulário com campos vazios | Erros/impedimento e indicação acessível do problema | executado | ![teste 1 formumario](../src/images/prints/contato.png) |
 | T07 | Digitar e-mail inválido | Campo rejeitado, mensagem adequada e destaque | executado | ![teste 2 formulario](../src/images/prints/teste-email.png)|
-| T08 | Enviar dados válidos | Mensagem coerente com o comportamento real | Não executado | ![teste 3 formulario](../src/images/prints/teste-enviar.png) |
-| T09 | Recarregar durante edição do formulário | Rascunho ou preferência definida permanece via `localStorage` | Não executado | [print] |
+| T08 | Enviar dados válidos | Mensagem coerente com o comportamento real | executado | ![teste 3 formulario](../src/images/prints/teste-enviar.png) |
+| T09 | Recarregar durante edição do formulário | Rascunho ou preferência definida permanece via `localStorage` | executado | ![localstorage](../src/images/prints/teste-localStorage.png) |
 | T10 | Acionar alto contraste | Classe/estilo alterado sem perda de leitura | Não executado | falta comprovar |
 | T11 | Acionar aumentar/diminuir texto | Texto altera e mantém legibilidade | Não executado | falta comprovar |
 | T12 | Navegar com Tab e Enter | Foco visível, ordem lógica e controles acessíveis | executado | ![teste tab](../src/images/prints/teste-tabs.png) |
@@ -28,8 +28,8 @@
 | T14 | Validar as outras nove páginas no W3C | Zero erros em cada uma | executado | Todas as outras noves páginas apresentaram um comportamento normal ao validar, sem erros |
 | T15 | Executar auditoria Lighthouse | Relatório registrado e problemas analisados | Não executado | sem comprovação |
 | T16 | Examinar imagens/ícones | Carregamento e `alt` adequados | executado | ![alt teste](../src/images/prints/teste-alt.png) |
-| T17 | Reproduzir vídeo em `midia.html` | Vídeo reproduz normalmente | Não executado | [print/vídeo] |
-| T18 | Reproduzir áudio em `midia.html` | Áudio reproduz normalmente | Não executado | [print] |
+| T17 | Reproduzir vídeo em `midia.html` | Vídeo reproduz normalmente | executado | ![teste-midia](../src/images/prints/teste-midias.png) |
+| T18 | Reproduzir áudio em `midia.html` | Áudio reproduz normalmente | Executado | ![teste-midia](../src/images/prints/teste-midias.png) |
 | T19 | Carregar mapa incorporado | `iframe` aparece e é navegável | executado | ![mapa](../src/images/prints/teste-mapa.png) |
 | T20 | Abrir galeria | Galeria apresenta conteúdo visual pertinente | executado | ![teste images](../src/images/prints/galeria.png) |
 | T21 | Inspecionar console do navegador | Sem erros de JS e de carregamento críticos | executado | ![console](../src/images/prints/console.png) |
