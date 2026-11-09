@@ -44,7 +44,8 @@ Contribuir para uma sociedade mais justa e sustentável, na qual todas as pessoa
 O projeto foi desenvolvido utilizando tecnologias fundamentais para a criação de páginas web:
 
 - **HTML5:** Estruturação e organização do conteúdo do site.
-- **CSS3:** Estilização, layouts, cores e identidade visual.
+- **CSS3:** Estilização, layouts responsivos, cores e identidade visual.
+- **JavaScript:** Validação e interações do formulário de contato, armazenamento local do rascunho e controles de acessibilidade.
 - **Font Awesome:** Biblioteca utilizada para adicionar ícones à interface.
 
 ##  Estrutura do Projeto
@@ -63,6 +64,16 @@ Trabalho-HTML/
 ├── acessibilidade.html
 ├── orcamento_hospedagem.html
 │
+├── docs/                       # Documentação e evidências do projeto
+│   ├── README.md
+│   ├── arquitetura.md
+│   ├── diario_de_bordo.md
+│   ├── escopo.md
+│   ├── melhorias_mvp.md
+│   ├── orcamento.md
+│   ├── testes.md
+│   └── uso_ia.md
+│
 └── src/
     ├── audios/
     │   └── audio.mp3
@@ -76,9 +87,44 @@ Trabalho-HTML/
     ├── js/
     │   ├── form-contato.js
     │   └── main.js
-    └── videos
+    └── videos/
         └── apresentacao.mp4
 ```
+
+## Como executar o projeto localmente
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/giuerme/Trabalho-HTML.git
+   ```
+
+2. Acesse a pasta do projeto:
+
+   ```bash
+   cd Trabalho-HTML
+   ```
+
+3. Abra o arquivo `index.html` em um navegador. Também é possível utilizar a extensão **Live Server** no VS Code para executar o site localmente.
+
+> O site usa HTML, CSS e JavaScript no navegador; não exige instalação de dependências ou configuração de servidor de aplicação. O formulário demonstra validação e persistência local de rascunho com `localStorage`, mas **não envia mensagens a um servidor**.
+
+## Documentação técnica
+
+Os documentos da segunda entrega estão organizados em [`docs/`](./docs/):
+
+| Documento | Conteúdo |
+| --- | --- |
+| [Visão geral da documentação](./docs/README.md) | Índice e orientações |
+| [Arquitetura](./docs/arquitetura.md) | Estrutura e tecnologias |
+| [Escopo](./docs/escopo.md) | Objetivos e critérios do projeto |
+| [Orçamento](./docs/orcamento.md) | Hospedagem, publicação e custos |
+| [Diário de bordo](./docs/diario_de_bordo.md) | Histórico do desenvolvimento |
+| [Testes](./docs/testes.md) | Plano de testes, resultados e capturas |
+| [Melhorias do MVP](./docs/melhorias_mvp.md) | Evolução da primeira para a segunda entrega |
+| [Uso de IA](./docs/uso_ia.md) | Regras e registro de ferramentas e prompts |
+
+**Observação:** a existência de documentos e registros de testes não substitui a execução e comprovação dos critérios exigidos no roteiro. Alguns registros ainda precisam ser complementados pela equipe.
 
 ##  Páginas do Site
 
@@ -126,4 +172,4 @@ Nosso objetivo é mostrar que ajudar o próximo, evitar o desperdício e compart
 
 ---
 
-<sub>Projeto acadêmico desenvolvido em equipe, utilizando HTML5, CSS3 e Font Awesome.</sub>
+<sub>Projeto acadêmico desenvolvido em equipe, utilizando HTML5, CSS3, JavaScript e Font Awesome.</sub>
