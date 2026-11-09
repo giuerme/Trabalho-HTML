@@ -116,6 +116,62 @@
 - **Evidência:** [Commit](https://github.com/giuerme/Trabalho-HTML/commit/74c45a1ca62c880a68e71f88cabd8bfd3e43c48c) 
 - **IA utilizada:** Não
                  
+### [08/11/2026] — Correção das medidas e início das evidências de teste
+
+- **Responsável(is):** [@Ghost-NaNa](https://github.com/Ghost-NaNa)
+- **Objetivo:** Ajustar a apresentação das páginas em diferentes tamanhos de tela e iniciar a comprovação dos testes.
+- **Decisões e justificativas:** Foi necessário revisar HTML e CSS das dez páginas e registrar capturas de responsividade, navegação e formulário para a entrega final.
+- **Evidência:** [Commit](https://github.com/giuerme/Trabalho-HTML/commit/50e1b822c6ce)
+- **IA utilizada:** Não informado no commit
+
+### [09/11/2026] — Atualização do formulário de contato e inclusão de testes
+
+- **Responsável(is):** [@Ghost-NaNa](https://github.com/Ghost-NaNa)
+- **Objetivo:** Adicionar a lógica JavaScript do formulário de contato e ampliar as evidências de testes.
+- **Decisões e justificativas:** O formulário precisava de interatividade e armazenamento de rascunho, conforme os requisitos da segunda entrega. O commit também atualizou páginas, estilos e imagens de teste. A validação ainda requer ajustes.
+- **Evidência:** [Commit](https://github.com/giuerme/Trabalho-HTML/commit/66f16e352d4d)
+- **IA utilizada:** Não informado no commit
+
+### [09/11/2026] — Adição de recursos multimídia e novos testes
+
+- **Responsável(is):** [@Ghost-NaNa](https://github.com/Ghost-NaNa)
+- **Objetivo:** Incluir os arquivos de áudio e vídeo no site e registrar testes dessas funcionalidades.
+- **Decisões e justificativas:** A segunda entrega exige conteúdo multimídia. Foram adicionados os arquivos à pasta src, atualizada a página de mídia e incluídas evidências de testes.
+- **Evidência:** [Commit](https://github.com/giuerme/Trabalho-HTML/commit/383413b8ef29)
+- **IA utilizada:** Não informado no commit
+
+### [09/11/2026] — Atualização das informações de hospedagem
+
+- **Responsável(is):** [@Ghost-NaNa](https://github.com/Ghost-NaNa)
+- **Objetivo:** Complementar a página de orçamento e hospedagem com as informações do serviço utilizado.
+- **Decisões e justificativas:** Era necessário apresentar a alternativa de publicação e os dados de hospedagem solicitados no roteiro.
+- **Evidência:** [Commit](https://github.com/giuerme/Trabalho-HTML/commit/b83abfb6846e)
+- **IA utilizada:** Não informado no commit
+
+### [09/11/2026] — Atualização do README com instruções e documentação
+
+- **Responsável(is):** [@giuerme](https://github.com/giuerme)
+- **Objetivo:** Completar a apresentação técnica do projeto no README.
+- **Decisões e justificativas:** Foram adicionados JavaScript às tecnologias, orientações para execução local e referências aos documentos da pasta docs, facilitando a consulta e avaliação.
+- **Evidência:** [Commit](https://github.com/giuerme/Trabalho-HTML/commit/64b921b38848)
+- **IA utilizada:** Não informado no commit
+
+### [09/11/2026] — Revisão da evolução do MVP para a versão final
+
+- **Responsável(is):** [@giuerme](https://github.com/giuerme)
+- **Objetivo:** Atualizar o documento de melhorias para registrar a evolução entre as entregas.
+- **Decisões e justificativas:** Como o professor não fez observações sobre o MVP, a comparação foi organizada em torno das novas exigências da segunda entrega, sem registrar correções inexistentes.
+- **Evidência:** [Commit](https://github.com/giuerme/Trabalho-HTML/commit/371c8980d57c)
+- **IA utilizada:** Não informado no commit
+
+### [09/11/2026] — Revisão da documentação de uso de IA
+
+- **Responsável(is):** [@giuerme](https://github.com/giuerme)
+- **Objetivo:** Revisar o documento que registra a utilização de inteligência artificial no desenvolvimento.
+- **Decisões e justificativas:** Foi necessário complementar a documentação voltada à transparência do uso de IA exigida na segunda entrega.
+- **Evidência:** [Commit](https://github.com/giuerme/Trabalho-HTML/commit/7b4c7ade84f4)
+- **IA utilizada:** Não informado no commit
+
 ## 2. Histórico GitHub
 
 - Repositório: https://github.com/giuerme/Trabalho-HTML
