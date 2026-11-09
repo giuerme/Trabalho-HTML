@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/735a316080.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&display=swap">
+    <link rel="stylesheet" href="./src/css/home.css">
+    <link rel="stylesheet" href="./src/css/pages.css">
+    <title>Entrar | Movimento Sem Fome</title>
+</head>
+
+<body>
+    <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+    <header id="navbar-container"><noscript><div class="navbar"><div class="caminhos"><a class="caminhos-link" href="index.html">Início</a><a class="caminhos-link" href="sobre.html">Sobre</a><a class="caminhos-link" href="impacto.html">Impacto</a><a class="caminhos-link" href="projetos.html">Projetos</a><a class="caminhos-link" href="noticias.html">Notícias</a><a class="caminhos-link" href="contato.html">Contato</a></div></div></noscript></header>
+
+    <main class="content" id="conteudo">
+        <section class="auth">
+            <aside class="container-resumo borda auth-aside">
+                <p>Juntos contra a fome</p>
+                <h2 id="aside-titulo">Que bom ter você de volta</h2>
+                <p id="aside-texto">Entre para continuar ajudando.</p>
+            </aside>
+            <div class="auth-card">
+                <div class="auth-tabs" id="abas" role="tablist" aria-label="Acesso">
+                    <button type="button" role="tab" id="tab-entrar" aria-controls="painel-entrar" aria-selected="true" data-modo="entrar">Entrar</button>
+                    <button type="button" role="tab" id="tab-cadastro" aria-controls="painel-cadastro" aria-selected="false" tabindex="-1" data-modo="cadastro">Cadastre-se</button>
+                </div>
+                <div id="painel-entrar" role="tabpanel" aria-labelledby="tab-entrar">
+                    <h1>Entrar</h1>
+                    <p class="nota">Use o e-mail e a senha do seu cadastro.</p>
+                    <form id="form-entrar" novalidate><label>E-mail <input id="email" name="email" type="email" autocomplete="email" required></label><label>Senha <input id="senha" name="senha" type="password" autocomplete="current-password" required></label><button class="btn" type="submit">Entrar</button><p id="msg-entrar" class="msg" role="alert" hidden></p></form>
+                    <p class="auth-troca">Ainda não tem conta? <button type="button" data-modo="cadastro">Cadastre-se</button></p>
+                </div>
+                <div id="painel-cadastro" role="tabpanel" aria-labelledby="tab-cadastro" hidden>
+                    <h1>Criar conta</h1>
+                    <p class="nota">Leva menos de um minuto.</p>
+                    <form id="form-cadastro" novalidate><label>Nome <input id="nome" name="nome" type="text" autocomplete="name" required></label><label>E-mail <input id="email" name="email" type="email" autocomplete="email" required></label><label>Senha (mínimo 8 caracteres) <input id="senha" name="senha" type="password" autocomplete="new-password" required minlength="8"></label><label>Confirmar senha <input id="confirma" name="confirma" type="password" autocomplete="new-password" required></label><button class="btn" type="submit">Criar conta</button><p id="msg-cadastro" class="msg" role="alert" hidden></p></form>
+                    <p class="auth-troca">Já tem conta? <button type="button" data-modo="entrar">Entrar</button></p>
+                </div>
+                <div id="sessao" hidden>
+                    <h1>Você está conectado</h1>
+                    <p>Conta de <strong id="sessao-nome"></strong>.</p>
+                    <button type="button" class="btn" data-sair>Sair</button>
+                </div>
+            </div>
+        </section>
+        <p class="nota sec">Demonstração: o cadastro fica salvo apenas neste navegador, sem servidor. Ao conectar um back-end, a senha deve ser validada e protegida por ele.</p>
+    </main>
+
+    <nav class="mais" aria-label="Mais páginas"></nav>
+    <footer id="footer-container"></footer>
+    <script src="./src/js/main.js"></script>
+    <script src="./src/js/auth.js"></script>
+</body>
+
+</html>
