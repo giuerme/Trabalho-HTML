@@ -38,12 +38,12 @@
             </div>
         </section>
         <section class="sec"><h2>Envie uma mensagem</h2><form onsubmit="event.preventDefault();this.querySelector('.ok').hidden=false;this.reset()">
-            <label>Nome <input type="text" name="nome" required></label>
-            <label>E-mail <input type="email" name="email" required></label>
-            <label>Assunto <select name="assunto"><option>Dúvida</option><option>Parceria</option><option>Voluntariado</option><option>Outro</option></select></label>
-            <label>Mensagem <textarea name="mensagem" rows="5" required></textarea></label>
-            <button class="btn" type="submit">Enviar mensagem</button>
-            <p class="ok" role="status" hidden>Mensagem enviada. Responderemos em breve.</p>
+            <label>Nome <input id="nome" type="text" name="nome" required></label>
+            <label>E-mail <input id="email" type="email" name="email" required></label>
+            <label>Assunto <select id="assunto" name="assunto"><option>Dúvidas sobre o projeto</option><option>Parceria</option><option>Voluntariado</option><option>Outro</option></select></label>
+            <label>Mensagem <textarea id="mensagem" name="mensagem" rows="5" required></textarea></label>
+            <button class="btn" id="btn-enviar" type="submit">Enviar mensagem</button>
+            <p id="resultado" class="ok" role="status" hidden></p>
         </form></section>
     </main>
 
@@ -63,7 +63,7 @@
             </div>
         </div>
     </footer>
-    <script src="./src/js/main.js"></script>
+    <script src="./src/js/form-contato.js"></script>
 </body>
 
 </html>

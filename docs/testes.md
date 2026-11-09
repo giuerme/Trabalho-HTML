@@ -2,10 +2,9 @@
 
 ## 1. Ambiente a preencher
 
-- **URL testada:** https://trabalho-html-self.vercel.app/ (informada; confirmar acesso)
-- **Revisão/commit testado:** [SHA do commit]
-- **Data e responsável:** [DD/MM/AAAA — nome]
-- **Navegadores:** Chrome [versão], Firefox [versão], Edge [versão] (registrar somente os usados)
+- **URL testada:** https://trabalho-html-self.vercel.app/ 
+- **Data e responsável:** [08/11/2026] - Nathan de Oliveira Tavares
+- **Navegadores:** Firefox (Versão: 158.0.1)
 - **Larguras-alvo:** 360 px, 768 px, 1366 px (testar e registrar)
 - **Ferramentas:** DevTools, W3C Nu Validator, Lighthouse e teclado; outras se utilizadas.
 
@@ -13,7 +12,7 @@
 
 | ID | Procedimento | Resultado esperado | Resultado | Evidência |
 | --- | --- | --- | --- | --- |
-| T01 | Abrir home pela URL publicada | HTTPS, sem login e carregamento sem erro | executado | ![Teste URL](../src/images/prints/image.png) |
+| T01 | Abrir home pela URL publicada | HTTPS, sem login e carregamento sem erro | executado | ![Teste URL](../src/images/prints/home.png) |
 | T02 | Percorrer links de todas as dez páginas | Links internos chegam ao destino | executado | ![Teste link](../src/images/prints/links.png) |
 | T03 | Abrir em 360 px | Sem conteúdo cortado e navegação utilizável | executado parcialmente | ![Teste responsividade](../src/images/prints/responsi-360.png) |
 | T04 | Abrir em 768 px | Layout reorganizado e legível | executado | ![Teste 2 responsividade](../src/images/prints/responsi-768.png) |
@@ -25,16 +24,15 @@
 | T10 | Acionar alto contraste | Classe/estilo alterado sem perda de leitura | Não executado | falta comprovar |
 | T11 | Acionar aumentar/diminuir texto | Texto altera e mantém legibilidade | Não executado | falta comprovar |
 | T12 | Navegar com Tab e Enter | Foco visível, ordem lógica e controles acessíveis | executado | ![teste tab](../src/images/prints/teste-tabs.png) |
-| T13 | Validar `index.html` no W3C | Zero erros | Não executado | [relatório] |
-| T14 | Validar as outras nove páginas no W3C | Zero erros em cada uma | Não executado | [relatórios] |
-| T15 | Executar auditoria Lighthouse | Relatório registrado e problemas analisados | Não executado | [print] |
-| T16 | Examinar imagens/ícones | Carregamento e `alt` adequados | Não executado | [print] |
+| T13 | Validar `index.html` no W3C | Zero erros | executado | ![relatorio](../src/images/prints/w3c-teste.png) |
+| T14 | Validar as outras nove páginas no W3C | Zero erros em cada uma | executado | Todas as outras noves páginas apresentaram um comportamento normal ao validar, sem erros |
+| T15 | Executar auditoria Lighthouse | Relatório registrado e problemas analisados | Não executado | sem comprovação |
+| T16 | Examinar imagens/ícones | Carregamento e `alt` adequados | executado | ![alt teste](../src/images/prints/teste-alt.png) |
 | T17 | Reproduzir vídeo em `midia.html` | Vídeo reproduz normalmente | Não executado | [print/vídeo] |
 | T18 | Reproduzir áudio em `midia.html` | Áudio reproduz normalmente | Não executado | [print] |
-| T19 | Carregar mapa incorporado | `iframe` aparece e é navegável | Não executado | [print] |
-| T20 | Abrir galeria | Galeria apresenta conteúdo visual pertinente | Não executado | [print] |
-| T21 | Conferir links de redes, cadastro e notícias | Links funcionais ou controles não enganosos | Não executado | [print] |
-| T22 | Inspecionar console do navegador | Sem erros de JS e de carregamento críticos | Não executado | [print] |
+| T19 | Carregar mapa incorporado | `iframe` aparece e é navegável | executado | ![mapa](../src/images/prints/teste-mapa.png) |
+| T20 | Abrir galeria | Galeria apresenta conteúdo visual pertinente | executado | ![teste images](../src/images/prints/galeria.png) |
+| T21 | Inspecionar console do navegador | Sem erros de JS e de carregamento críticos | executado | ![console](../src/images/prints/console.png) |
 
 ## 3. Validação HTML — registro por página
 
@@ -43,16 +41,16 @@
 
 | Página | Data | Nº de erros | Evidência |
 | --- | --- | --- | --- |
-| `index.html` | — | A apurar | — |
-| `sobre.html` | — | A apurar | — |
-| `impacto.html` | — | A apurar | — |
-| `projetos.html` | — | A apurar | — |
-| `noticias.html` | — | A apurar | — |
-| `contato.html` | — | A apurar | — |
-| `galeria.html` | — | A apurar | — |
-| `midia.html` | — | A apurar | — |
-| `acessibilidade.html` | — | A apurar | — |
-| `orcamento_hospedagem.html` | — | A apurar | — |
+| `index.html` | 08/11/2026 | 0 | Testes realizados e aprovados |
+| `sobre.html` | 08/11/2026 | 0 | Testes realizados e aprovados |
+| `impacto.html` | 08/11/2026 | 0 | Testes realizados e aprovados |
+| `projetos.html` | 08/11/2026 | 0 | Testes realizados e aprovados |
+| `noticias.html` | 08/11/2026 | 0 | Testes realizados e aprovados |
+| `contato.html` | 08/11/2026 | 0 | Testes realizados e aprovados |
+| `galeria.html` | 08/11/2026 | 0 | Testes realizados e aprovados |
+| `midia.html` | 08/11/2026 | 0 | Testes realizados e aprovados |
+| `acessibilidade.html` | 08/11/2026 | 0 | Testes realizados e aprovados |
+| `orcamento_hospedagem.html` | 08/11/2026 | 0 | Testes realizados e aprovados |
 
 ## 4. Acessibilidade e critérios objetivos
 
