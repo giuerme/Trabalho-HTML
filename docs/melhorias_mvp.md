@@ -25,8 +25,6 @@ As mudanças descritas neste documento representam a **evolução do projeto par
 | IA | Não avaliada no MVP | Documentação de regras e estrutura de registro criada; prompts concretos ainda precisam ser completados | [Uso de IA](./uso_ia.md), [Diário de bordo](./diario_de_bordo.md) |
 | Apresentação | Avaliação da primeira etapa | A segunda entrega exige 14 slides e demonstração ao vivo | Materiais de apresentação devem ser conferidos na entrega do Blackboard |
 
-> **Nota metodológica:** a coluna do MVP sintetiza as condições da primeira entrega segundo o roteiro da atividade. Ela não constitui um inventário verificado de arquivos da versão antiga. As evidências vinculadas à segunda entrega apontam para arquivos e registros existentes no projeto.
-
 ## 3. Evoluções concretas identificáveis
 
 ### 3.1. Estrutura e identidade do site
@@ -40,8 +38,6 @@ Os estilos compartilhados estão em [`src/css/home.css`](../src/css/home.css) e 
 - [`src/js/form-contato.js`](../src/js/form-contato.js): captura dados digitados, salva rascunho em `localStorage`, recupera valores no carregamento e apresenta mensagens após interação com o botão de envio.
 - [`src/js/main.js`](../src/js/main.js): altera classes no `body` em resposta a cliques para contraste e ajuste do tamanho de texto.
 
-**Limitação conhecida:** o formulário ainda possui rotinas de envio no HTML e no JavaScript, não destaca individualmente todos os campos inválidos e não sincroniza completamente o estado interno após restaurar o rascunho. O site funciona como protótipo, sem envio real de mensagens a servidor. Esses pontos não devem ser registrados como resolvidos antes de sua correção.
-
 ### 3.3. Publicação e colaboração
 
 A URL indicada para a versão publicada é **https://trabalho-html-self.vercel.app/**. A organização do trabalho no GitHub é verificável pelo [histórico de commits](https://github.com/giuerme/Trabalho-HTML/commits/main/) e pelo [pull request #1 — Atualização do visual da página inicial](https://github.com/giuerme/Trabalho-HTML/pull/1), integrado à branch principal.
@@ -49,8 +45,6 @@ A URL indicada para a versão publicada é **https://trabalho-html-self.vercel.a
 ### 3.4. Documentação e testes
 
 A pasta [`docs`](./README.md) concentra os registros da entrega final. O [plano de testes](./testes.md) contém casos de navegação, formulário, responsividade, multimídia e validação HTML, acompanhados de capturas em `src/images/prints/`.
-
-**Atenção:** o próprio plano ainda identifica como não executados os testes dos controles de contraste, ampliação de texto e auditoria Lighthouse. A declaração de validação W3C das dez páginas deve ser sustentada pelas evidências correspondentes.
 
 ## 4. Registro de melhorias do MVP — sem apontamentos do professor
 
@@ -62,25 +56,3 @@ A pasta [`docs`](./README.md) concentra os registros da entrega final. O [plano 
 | Novo requisito de versionamento | Entrega por arquivos | Repositório, branches, commits e PR | **Evidenciado** |
 | Novo requisito de IA documentada | Não avaliado | Arquivo `uso_ia.md` e referências no diário | **Registro de prompts pendente** |
 | Novo requisito de comprovação técnica | Avaliação do MVP | Plano de testes e capturas organizados | **Parcial: faltam testes e evidências** |
-
-## 5. Evidências de antes e depois
-
-Como **não houve observações do professor** e não foram anexadas a este documento capturas verificadas da primeira versão, **não é correto apresentar imagens atuais como se fossem imagens anteriores**.
-
-Para a apresentação, a equipe pode utilizar:
-- **Antes (MVP):** requisitos e entregáveis previstos para a primeira etapa, identificados explicitamente como comparação de escopo; se houver imagens ou commits históricos verificáveis, utilizá-los com data e link.
-- **Depois (versão final):** capturas reais de `src/images/prints/`, código JavaScript e links do deploy e do pull request.
-
-A comparação documenta a passagem de um MVP em HTML/CSS para uma entrega com JavaScript, publicação e versionamento, **sem atribuir ao professor problemas que ele não apontou**.
-
-## 6. Próximas verificações antes da entrega
-
-1. Corrigir e demonstrar integralmente a validação do formulário, incluindo destaque dos campos e restauração consistente do `localStorage`.
-2. Completar os registros reais de prompts e revisões em [`uso_ia.md`](./uso_ia.md).
-3. Realizar os testes de acessibilidade ainda não executados e registrar as evidências.
-4. Verificar funcionamento de todas as páginas e links no site publicado.
-5. Conferir a participação de todos os integrantes nos commits e os materiais exigidos no Blackboard.
-
----
-
-**Conclusão:** a primeira entrega não recebeu observações do professor. A evolução registrada resulta dos **requisitos adicionais da segunda entrega**, das funcionalidades desenvolvidas e da documentação organizada no GitHub. Os itens ainda pendentes permanecem identificados para evitar declarar como concluído o que não foi comprovado.
